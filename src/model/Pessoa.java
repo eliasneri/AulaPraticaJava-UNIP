@@ -32,7 +32,7 @@ public class Pessoa {
 	}
 
 	public void setTelefone(int telefone) {
-		if (telefone >= 10000000) {
+		if (telefone >= 1000000) {
 			this.telefone = telefone;
 		} else {
 			throw new IllegalArgumentException("Telefone Inválido");
